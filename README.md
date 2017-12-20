@@ -1,9 +1,7 @@
 # change-search-engine
 
-tampermonkey script,for change current search engine,supprot sarch engine for below:
+tampermonkey script,for change current search engine,supprot engine for below:
 
-- googl
-
+- google
 - bing
-
 - baidu
