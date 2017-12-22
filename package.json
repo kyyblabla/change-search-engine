@@ -1,0 +1,24 @@
+{
+  "name": "change-search-engine",
+  "version": "1.0.0",
+  "description": "tampermonkey script,for change current search engine,supprot engine for below:",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyyblabla/change-search-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyyblabla/change-search-engine/issues"
+  },
+  "homepage": "https://github.com/kyyblabla/change-search-engine#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2"
+  }
+}

@@ -1,0 +1,18 @@
+<div id="engine_container">
+    <div v-show="showMe" id="engine_wrapper">
+        <div id="input">
+            <input @keydown.down="onDirectionKeydown('down')" @keydown.enter="search" @keydown.up="onDirectionKeydown('up')" autocomplete="off" id="keyword" type="text" v-model="keyWord">
+            </input>
+        </div>
+            <div id="engine_list" v-show="keyWord">
+                <div :class="{'active':index==currentEngine}" class="engine" v-for="(engine,index) in engines">
+                    <div class="name">
+                        {{engine.name}}
+                    </div>
+                    <div class="url">
+                        {{engine.url|formatSearchUrl(keyWord)}}
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
